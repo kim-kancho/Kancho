@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#headercolor{
+  display: flex;
+  flex-direction : row;
+  background-color:#fffbd5;
+}
+
+
+p,pre ,li{
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  transform: skew(-0.1deg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+
+h1,h2,h3 {
+  font-family: "Black Han Sans";
+  font-weight: 400;
+  font-size: x-large;
+  font-style: normal;
+  border: radius 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto; 
+}
+
+nav {
+  float: right;
+  margin-top: -65px;
+}
+
+#linav{
+  background:#ffe9c0;
+  padding: 6px;
+  list-style: none;
+  float: left;
+}
+
+a{
+  text-decoration-line: none;
+  text-decoration:none;
+  flex-grow: 1;
+}
+
+a:link {
+  color: rgba(243, 135, 153, 0.87);
+}
+
+
+a:visited{
+  color: rgb(19, 151, 228);
+}
+
+a:hover{
+  color: rgb(194, 133, 252);
+  background-color: #d4ddf1;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  background: #fdfcf0;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+#fblock{
+  display: flex;
+  flex-direction : row;
+  justify-content:center;
+  width: 100%;
+}
+  
+#hobby{
+  width: 50%;
+}
+
+#dream{
+  width: 50%;
+}
+
+#logo{
+  float: left;
+}
+
+#book{
+  margin-left: 40px; 
+
+}
+
+#send{
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 5px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  text-align: center;
+  text-shadow: 0 5px 0 rgba(76, 92, 60, 0.15);
+  background-color: #b1d6c1;
+  
+}
+
+table{
+  width: 40%;
+  height: 60%;
+  table-layout: fixed;
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  transform: skew(-0.1deg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  
+}
+
+table td:hover{
+  color: rgb(238, 118, 138);
+  background-color: rgb(253, 236, 236);
+}
+
+thead{
+  background-color: rgb(252, 242, 197);
+}
+
+#class{
+  background-color: rgb(252, 242, 197);
+}
+
+footer{
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+  transform: skew(-0.1deg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  background-color: #fffbd5;
+}
+
+#footerp{
+  color: #838383;
+}
