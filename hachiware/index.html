@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f7ef"><title>하치와레의 작은 풀밭</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="brand-icon">✿</span> 작은 풀밭 <span class="brand-en">a little meadow</span></a><button id="sound" class="quiet-button" aria-pressed="false">♫ <span>소리 꺼짐</span></button></header>
+<main>
+<div class="intro"><div><p class="eyebrow">A SLOW MOMENT, JUST FOR YOU</p><h1>하치와레랑, 느긋한 하루</h1><p class="subtitle">아무것도 하지 않아도 괜찮아. 여기서 잠깐 쉬어가요.</p></div><span class="day-badge"><span></span> 오늘도 평화로운 풀밭</span></div>
+<div class="layout">
+<section class="meadow" aria-label="하치와레와 상호작용하는 풀밭">
+<div class="scene-top"><span class="scene-label">✿ 하치와레의 작은 풀밭</span><span class="weather">☀  포근한 오후</span></div>
+<div class="cloud cloud-one"></div><div class="cloud cloud-two"></div><div class="hill hill-one"></div><div class="hill hill-two"></div>
+<div id="grass" aria-hidden="true"></div>
+<button id="magic-star" class="magic-star" aria-label="얼굴 있는 노란 별을 눌러 매지컬 하치와레로 변신" aria-pressed="false"><img src="assets/magic-star.png" alt="작은 눈과 웃는 입이 있는 노란 별"><span>별을 눌러 변신!</span></button>
+<div id="transformation" class="transformation" hidden aria-hidden="true"><div class="magic-ring"></div><div class="magic-sparkles">✧ ˚ ✦ ⋆ ✧ ˚ ✦</div><p>반짝반짝, 매지컬 하치와레!</p></div>
+<div class="character-area"><div id="bubble" class="bubble" role="status" aria-live="polite">와아… 놀러 왔구나! <span>♡</span></div><div class="character-shadow"></div><button id="character" class="character" aria-label="하치와레 쓰다듬기. 누르거나 머리를 문질러 주세요"><span class="sprite generated" id="sprite"></span></button><div id="particles" aria-hidden="true"></div></div>
+<div class="scene-bottom"><span><span class="small-hand">☞</span> 머리 위를 살살 문질러 주세요</span><button id="reset" aria-label="하치와레와의 하루 초기화">↻ <span>새로운 하루</span></button></div>
+</section>
+<aside class="sidebar"><section class="friend-card"><div class="card-top"><span class="eyebrow">YOUR LITTLE FRIEND</span><span class="tiny-flower">✿</span></div><h2>하치와레 <span>ハチワレ</span></h2><div class="mood"><span id="mood-icon">☺</span><div><strong id="mood">기분 좋은 오후</strong><p id="mood-description">같이 있어줘서 좋아요</p></div></div><div class="affection-heading"><span>우리의 친밀도</span><span><strong id="affection-value">0</strong> / 100</span></div><div class="progress" role="progressbar" aria-label="친밀도" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="affection-bar"></div></div><p id="affection-caption" class="caption">조금씩, 천천히 친해져요.</p><div class="divider"></div><p class="action-label">뭐 하고 놀까요?</p><div class="actions"><button data-action="pet"><span class="action-icon">♡</span><span><strong>쓰다듬기</strong><small>살살, 다정하게</small></span><span class="action-arrow">↗</span></button><button data-action="feed"><span class="action-icon">🍙</span><span><strong>간식 주기</strong><small>맛있는 한 입</small></span><span class="action-arrow">↗</span></button><button data-action="play"><span class="action-icon">✧</span><span><strong>같이 놀기</strong><small>방울방울 비눗방울</small></span><span class="action-arrow">↗</span></button><button data-action="rest"><span class="action-icon">☾</span><span><strong>쉬어가기</strong><small>잠깐 눈을 감아요</small></span><span class="action-arrow">↗</span></button></div></section><div class="note"><span>✳</span><p>작은 다정함이 쌓이면<br>오늘이 조금 더 좋아질 거예요.</p></div></aside>
+</div>
+<footer><span>MADE FOR LITTLE MOMENTS</span><span>하치와레와 함께하는, 소소한 행복 <span class="footer-heart">♡</span></span></footer>
+</main><script src="app.js"></script>
+</body></html>
